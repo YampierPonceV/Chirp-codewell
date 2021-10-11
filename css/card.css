@@ -13,7 +13,11 @@
 .card {
   border: 1px solid var(--grayRGBA);
   padding: 15px;
-  border-radius: 4px;
+  border-radius: 10px;
+}
+
+.card p {
+  line-height: 27px;
 }
 
 .card .icon-card {

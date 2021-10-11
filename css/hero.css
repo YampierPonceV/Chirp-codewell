@@ -18,6 +18,10 @@
   font-size: 33px;
 }
 
+.hero-description {
+  line-height: 27px;
+}
+
 .users {
   margin-top: 20px;
   display: flex;
