@@ -2,12 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
 .logo-title {
   font-size: 20px;
   color: var(--celeste);
   font-style: italic;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .hamburguer {

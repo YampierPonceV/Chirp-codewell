@@ -1,0 +1,17 @@
+.footer {
+  padding: var(--paddinPrincipal);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: var(--celesteClaro);
+}
+
+.politicas-copy {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-politicas {
+  text-decoration: none;
+  color: var(--black);
+}

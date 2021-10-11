@@ -1,0 +1,65 @@
+.commets {
+  padding: var(--paddinPrincipal);
+  background: var(--celesteClaro);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card-commets {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  padding: 18px;
+  border-radius: 4px;
+}
+.container-commets {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-commets-secctions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-avatar {
+  width: 55px;
+}
+
+.user-profile {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.name-profile p {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  color: var(--black);
+}
+.name-profile p:last-child {
+  color: var(--gray);
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.comment-text {
+  line-height: 28px;
+  font-size: 18px;
+}
+
+.footer-commets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.liks-commets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}

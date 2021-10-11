@@ -1,3 +1,9 @@
+.analitics {
+  padding: var(--paddinPrincipal);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .contaner-cards {
   display: flex;
   flex-direction: column;

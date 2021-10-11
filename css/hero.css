@@ -8,6 +8,12 @@
   border-radius: 4px;
 }
 
+.hero {
+  background: var(--orangeClaro);
+  padding: var(--paddinPrincipal);
+  padding-bottom: 18px;
+}
+
 .header-hero-tite {
   font-size: 33px;
 }

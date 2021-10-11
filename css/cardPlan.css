@@ -1,0 +1,48 @@
+.plan {
+  padding: var(--paddinPrincipal);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card-plan {
+  padding: 22px;
+  border: 2px solid var(--orange);
+  border-radius: 10px;
+  background: var(--orangeClaro);
+}
+
+.title-plan-monto,
+.dolar-cash-bold {
+  padding: 0;
+  margin: 0;
+}
+
+.title-plan-monto {
+  font-size: 22px;
+}
+
+.dolar-cash-bold {
+  font-size: 35px;
+}
+
+.cash-description {
+  font-size: 18px;
+  color: var(--gray);
+}
+
+.list-plan-description {
+  margin: 0;
+  line-height: 28px;
+}
+
+.container-list-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contaner-lists {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
