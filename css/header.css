@@ -1,0 +1,21 @@
+.header-primary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-title {
+  font-size: 20px;
+  color: var(--celeste);
+  font-style: italic;
+}
+
+.hamburguer {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../assets/HamburgerMenu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}

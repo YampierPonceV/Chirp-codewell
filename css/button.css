@@ -1,0 +1,29 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.button-twitter {
+  width: 100%;
+  padding: 18px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: var(--celeste);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.button-leardmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  color: var(--celesteOscuro);
+  font-weight: bold;
+}

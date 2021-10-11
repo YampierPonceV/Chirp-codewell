@@ -1,0 +1,27 @@
+.hero-image {
+  width: 100%;
+  height: 600px;
+  background-image: url("../assets/HeroImageDesktopView.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 4px;
+}
+
+.header-hero-tite {
+  font-size: 33px;
+}
+
+.users {
+  margin-top: 20px;
+  display: flex;
+}
+
+.users img {
+  margin-right: -20px;
+}
+
+.bold-user-number {
+  font-weight: bold;
+  color: var(--celesteOscuro);
+}

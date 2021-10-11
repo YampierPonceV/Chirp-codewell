@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap");
+@import url("./css/header.css");
+@import url("./css/hero.css");
+@import url("./css/button.css");
+@import url("./css/card.css");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: white;
+  --font-family: "Inter", sans-serif;
+  --celeste: #2f7ff5;
+  --celesteOscuro: #177395;
+  --gray: #9d9c9a;
+  --grayRGBA: rgba(157, 156, 154, 0.582);
+}
+
+body {
+  background: var(--white);
+  font-family: var(--font-family);
+}
+
+p {
+  color: var(--gray);
+}

@@ -1,0 +1,15 @@
+.contaner-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid var(--grayRGBA);
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.card .icon-card {
+  font-size: 30px;
+}
