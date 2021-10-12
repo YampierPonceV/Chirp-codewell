@@ -6,6 +6,7 @@
 @import url("./css/cardComments.css");
 @import url("./css/cardPlan.css");
 @import url("./css/footer.css");
+@import url("./css/menu.css");
 *,
 *::after,
 *::before {
@@ -24,6 +25,7 @@
   --orange: #ffc057;
   --orangeClaro: #fbf8f3;
   --paddinPrincipal: 0 18px;
+  --grayOscuro: #565656;
 }
 
 body {
@@ -34,7 +36,7 @@ body {
 }
 
 p {
-  color: var(--gray);
+  color: var(--grayOscuro);
 }
 
 hr {

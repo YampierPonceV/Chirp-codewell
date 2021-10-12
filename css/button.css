@@ -17,6 +17,7 @@
   background: var(--celeste);
   color: var(--white);
   font-weight: bold;
+  transition: linear 0.3s all;
 }
 
 .button-leardmore {
@@ -27,4 +28,18 @@
   text-decoration: none;
   color: var(--celesteOscuro);
   font-weight: bold;
+}
+
+.button-twitter:hover,
+.button-leardmore:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1120px) {
+  .buttons {
+    flex-direction: row;
+  }
+  .button-twitter-hero {
+    width: max-content;
+  }
 }

@@ -4,6 +4,11 @@
   padding-bottom: 30px;
 }
 
+.wrapper-plan {
+  max-width: 450px;
+  margin: auto;
+}
+
 .card-plan {
   padding: 22px;
   border: 2px solid var(--orange);
@@ -27,6 +32,7 @@
 
 .cash-description {
   font-size: 18px;
+  font-weight: normal;
   color: var(--gray);
 }
 
@@ -45,4 +51,12 @@
   display: flex;
   gap: 20px;
   align-items: flex-start;
+}
+
+.plan-title-center {
+  text-align: center;
+}
+
+.plan-copy-description {
+  margin-bottom: 30px;
 }

@@ -5,6 +5,11 @@
   padding-bottom: 30px;
 }
 
+.wrapper-comments {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .card-commets {
   display: flex;
   flex-direction: column;
@@ -62,4 +67,14 @@
   justify-content: center;
   align-items: center;
   gap: 7px;
+}
+
+@media screen and (min-width: 1120px) {
+  .container-commets {
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .card-commets {
+    width: 100%;
+  }
 }

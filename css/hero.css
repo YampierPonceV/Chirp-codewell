@@ -8,6 +8,11 @@
   border-radius: 4px;
 }
 
+.wrapper-hero {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .hero {
   background: var(--orangeClaro);
   padding: var(--paddinPrincipal);
@@ -34,4 +39,30 @@
 .bold-user-number {
   font-weight: bold;
   color: var(--celesteOscuro);
+}
+
+@media screen and (min-width: 650px) {
+  .hero div.hero-image {
+    background-image: url("../assets/HeroImageTabletView.png");
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .wrapper-hero {
+    display: flex;
+  }
+
+  .hero {
+    padding-bottom: 28px;
+  }
+
+  .hero div.hero-image {
+    background-image: url("../assets/HeroImageDesktopView.png");
+    background-position-x: right;
+    order: 2;
+  }
+  .title-important {
+    max-width: 500px;
+    font-size: 45px;
+  }
 }

@@ -1,8 +1,10 @@
-.header-primary {
+.wrapper-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .logo-title {
@@ -13,12 +15,8 @@
   font-weight: bold;
 }
 
-.hamburguer {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background-image: url("../assets/HamburgerMenu.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  cursor: pointer;
+@media screen and (min-width: 650px) {
+  .header-primary {
+    padding-bottom: 40px;
+  }
 }

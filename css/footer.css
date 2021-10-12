@@ -5,6 +5,11 @@
   background: var(--celesteClaro);
 }
 
+.wrapper-footer {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .politicas-copy {
   display: flex;
   align-items: center;
@@ -14,4 +19,15 @@
 .footer-politicas {
   text-decoration: none;
   color: var(--black);
+}
+
+.footer-politicas:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1120px) {
+  .wrapper-footer {
+    display: flex;
+    justify-content: space-between;
+  }
 }

@@ -1,0 +1,78 @@
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-menu {
+  display: none;
+}
+
+.navegacion {
+  gap: 18px;
+  list-style: none;
+  margin-right: 18px;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.navegacion li {
+  padding: 12px;
+}
+
+.hamburguer {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("../assets/HamburgerMenu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  position: relative;
+}
+
+.navegacion li a:hover {
+  opacity: 0.8;
+}
+
+.navegacion li a.active-link {
+  color: var(--celesteOscuro);
+  font-weight: bold;
+}
+
+.navegacion li a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+div.activarMenu {
+  display: flex;
+  position: absolute;
+  right: 18px;
+  top: 50px;
+  flex-direction: column;
+  background: #212121;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1120px) {
+  .wrapper-menu {
+    display: flex;
+    align-items: center;
+  }
+  .hamburguer {
+    display: none;
+  }
+  .navegacion {
+    display: flex;
+    margin-right: 15px;
+  }
+
+  .navegacion li {
+    padding: initial;
+  }
+  .navegacion li a {
+    text-decoration: none;
+    color: var(--grayOscuro);
+  }
+}
